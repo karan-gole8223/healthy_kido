@@ -46,19 +46,11 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-<<<<<<< HEAD
             'host' => env('DB_HOST', 'db4free.net'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'healthy_kido'),
             'username' => env('DB_USERNAME', 'karan_gole'),
             'password' => env('DB_PASSWORD', '12345678'),
-=======
-            'host' => env('DB_HOST', 'db4free.net'),
-            'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'healthy_kido'),
-            'username' => env('DB_USERNAME', 'karan_gole'),
-            'password' => env('DB_PASSWORD', '12345678'),
->>>>>>> 1e11838a1965bea7a28c1a4bf9dd2d1f9b08e03d
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
