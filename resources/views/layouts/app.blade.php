@@ -20,7 +20,7 @@
 
   
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5f33b4a3de52a0001208d814&product=inline-follow-buttons" async="async"></script>
 </head>
 <body>
