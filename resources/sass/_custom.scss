@@ -1,0 +1,114 @@
+.structure
+{
+        
+    margin-bottom: 100px;
+}
+ .navs
+ {
+    background-color: black;
+ }
+
+ body{
+    background-image: url('/img/index.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.jumbotron{
+    background-image: url('/img/jumbo.png');
+}
+.forms
+{
+    color: yellow;
+    font-size: 19px;
+    
+}
+
+.fonts
+{
+    font-size: 19px;
+    color: aqua;
+    
+}
+.fontss
+{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 36, 36);}
+.abt1
+{
+    background-image: url('/img/about.png');
+    width: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 12px;
+  border: 5px solid rgb(0, 255, 200);
+}
+.abt2
+{
+    background-image: url('/img/contact.png');
+    width: 100%;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  border: 5px solid rgb(0, 255, 200);
+
+}
+.foots
+{ 
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    position: fixed;
+    color:whitesmoke;
+    font-size: 15px;
+    bottom:0;
+    margin-top: 100px;
+    width:100%;
+    height:50px;   /* Height of the footer */
+    background-color: black;
+
+
+}
+.footer-social { padding-top: 3px; text-align: right; }
+.footer-social a { margin-left: 20px; color: #777; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: #79a05f; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+
+//font_logo_images
+.fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* google */
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  //instagram
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
